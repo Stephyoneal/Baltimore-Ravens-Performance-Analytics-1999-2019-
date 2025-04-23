@@ -1,2 +1,6 @@
-# Baltimore-Ravens-Performance-Analytics-1999-2019-
-Analyzed 20 seasons of Baltimore Ravens data (1999–2019) using Python and Tableau. Explored scoring trends, rushing vs. passing strategy, and top player impact. Built dashboards and a Tableau story to highlight insights—simulating how teams use analytics to evaluate performance and drive decisions.
+# Project Title:
+“Baltimore Ravens Performance Analytics (1999–2019)”
+
+## Project Overview 
+This project analyzes 20 seasons of the Baltimore Ravens’ performance (1999–2019) using a combination of Python (data preparation) and Tableau (visual analytics). The goal was to uncover trends in scoring, rushing vs. passing behavior, and top player contributions.
+Insights are visualized using dynamic dashboards and a storytelling format in Tableau Public. This project simulates what an analytics department in a sports organization might use for evaluating historical data and identifying performance drivers.
