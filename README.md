@@ -15,11 +15,44 @@ Insights are visualized using dynamic dashboards and a storytelling format in Ta
 
 
 ## Key KPIs Tracked
-Total Touchdowns per Season	            To evaluate scoring performance over time
-Rushing vs. Passing Yards per Season	   To understand offensive strategy balance
-Top Players by Yards Gained	            To identify key contributors
-Touchdowns by Quarter (Q1–Q4)	          To detect strong or weak periods within games
-High-Scoring Games (Threshold-based)   	To highlight standout games
-Game-by-Game Touchdown Trends	          To detect variability and scoring patterns
+-Total Touchdowns per Season	            
+-Rushing vs. Passing Yards per Season	   
+-Top Players by Yards Gained	           
+-Touchdowns by Quarter (Q1–Q4)	          
+-High-Scoring Games (Threshold-based)   	
+-Game-by-Game Touchdown Trends	          
+-Dashboard interaction -<a href="https://github.com/Stephyoneal/Baltimore-Ravens-Performance-Analytics-1999-2019-/blob/main/Screenshot%202025-04-23%20120335.png">Dataset</a>
 
-- Dashboard interaction 
+## Process 
+Project Process
+This project followed a full-cycle data analytics workflow—starting from raw data to interactive dashboards and insights:
+
+- Data Collection & Preparation
+Imported season-wise performance data of the Baltimore Ravens from 1999 to 2019, including:
+Total touchdowns by season
+Touchdowns by quarter
+Rushing and passing yards
+Game-by-game statistics
+Player performance stats
+Cleaned and standardized CSV files in Excel and optionally via Python
+Ensured data types (e.g., year as dimensions, scores as measures) were compatible for visualization
+
+- Data Exploration & KPI Development
+Defined core KPIs:
+Total touchdowns per season
+Touchdowns per game and quarter
+Yards gained by top players (run/pass)
+Rushing vs. passing yardage split
+Calculated derived fields like “Big Touchdown Games” based on thresholds
+
+- Data Visualization with Tableau
+Created the following sheets:
+Line Chart: Touchdowns across 1999–2019
+Stacked Bars: Rushing vs. Passing Yards per Season
+Game-by-Game Touchdowns: Line graph with highlight for top games
+Top Players: Horizontal bar chart by yards gained
+Quarter-wise Analysis: Touchdowns by Q1–Q4
+Built a Dashboard combining key views -<a href="https://github.com/Stephyoneal/Baltimore-Ravens-Performance-Analytics-1999-2019-/blob/main/Screenshot%202025-04-23%20120335.png">Dataset</a>
+
+## Tableau 
+Designed a Tableau Story to walk stakeholders through the performance narrative -<a href="https://github.com/Stephyoneal/Baltimore-Ravens-Performance-Analytics-1999-2019-/blob/main/Stephy%20project.twbx">Dataset</a>
