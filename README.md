@@ -52,7 +52,38 @@ Stacked Bars: Rushing vs. Passing Yards per Season
 Game-by-Game Touchdowns: Line graph with highlight for top games
 Top Players: Horizontal bar chart by yards gained
 Quarter-wise Analysis: Touchdowns by Q1–Q4
-Built a Dashboard combining key views -<a href="https://github.com/Stephyoneal/Baltimore-Ravens-Performance-Analytics-1999-2019-/blob/main/Screenshot%202025-04-23%20120335.png">Dataset</a>
-
-## Tableau 
 Designed a Tableau Story to walk stakeholders through the performance narrative -<a href="https://github.com/Stephyoneal/Baltimore-Ravens-Performance-Analytics-1999-2019-/blob/main/Stephy%20project.twbx">Dataset</a>
+
+## Dashboard 
+![Screenshot 2025-04-23 120335](https://github.com/user-attachments/assets/860adf97-7d13-480f-8643-54b24ad0c71e)
+
+## Project Insights
+- Touchdown Trends
+The Ravens saw consistent growth in touchdowns with notable peaks in 2012 and 2014.
+Touchdowns dropped in certain seasons (e.g., 2005, 2007)—potential coaching or roster impacts.
+
+- Quarter-by-Quarter Strength
+The team scored most touchdowns in Q4, suggesting a strong closing capability.
+Q1 had the fewest touchdowns, indicating slower starts.
+
+- Offensive Strategy: Rushing vs. Passing
+From 2008–2013, there was a strong balance between rushing and passing yards.
+Recent seasons (2018–2019) show an increased reliance on rushing, possibly due to quarterback play style (e.g., Lamar Jackson’s era).
+
+- Top Players
+J. Lewis and R. Rice led in rushing yards.
+J. Flacco dominated passing contributions across multiple seasons.
+Emerging talents like L. Jackson began appearing in recent years, reflecting team evolution.
+
+- High-Impact Games
+Identified several games with 95+ touchdowns, visually highlighted using custom color legends.
+These games represent strategic victories or explosive team performance.
+
+## Final Conclusion
+The Baltimore Ravens have evolved significantly between 1999 and 2019, showing patterns of strategic adaptability, strong late-game performance, and shifting offensive tactics. Tableau visualizations allowed us to uncover not just raw stats, but insights that can inform coaching, scouting, and sports analytics decisions.
+This project showcases how sports data visualization can bridge raw stats with storytelling, and how combining historical performance metrics with interactive dashboards creates powerful narratives for teams, fans, and analysts alike.
+
+## Future Work
+Live SQL database integration
+Machine learning to predict touchdown probabilities
+Comparison across NFL teams (not just Ravens)
