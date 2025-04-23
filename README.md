@@ -7,11 +7,19 @@ Insights are visualized using dynamic dashboards and a storytelling format in Ta
 
 ## Dataset Used 
 -<a href= "https://raw.githubusercontent.com/Stephyoneal/Baltimore-Ravens-Performance-Analytics-1999-2019-/refs/heads/main/ravens_game_by_game_touchdowns.csv">Dataset</a>
-
  -<a href="https://raw.githubusercontent.com/Stephyoneal/Baltimore-Ravens-Performance-Analytics-1999-2019-/refs/heads/main/ravens_points_by_quarter.csv">Dataset</a>
-
  -<a href="https://raw.githubusercontent.com/Stephyoneal/Baltimore-Ravens-Performance-Analytics-1999-2019-/refs/heads/main/ravens_points_by_season.csv">Dataset</a>
-
 -<a href="https://raw.githubusercontent.com/Stephyoneal/Baltimore-Ravens-Performance-Analytics-1999-2019-/refs/heads/main/ravens_rushing_vs_passing_by_season.csv">Dataset</a>
-
 -<a href="https://raw.githubusercontent.com/Stephyoneal/Baltimore-Ravens-Performance-Analytics-1999-2019-/refs/heads/main/ravens_top_players_stats.csv">Dataset</a>
+-<a href="https://github.com/Stephyoneal/Baltimore-Ravens-Performance-Analytics-1999-2019-/blob/main/Stephy%20project.twbx">Dataset</a>
+
+
+## Key KPIs Tracked
+Total Touchdowns per Season	            To evaluate scoring performance over time
+Rushing vs. Passing Yards per Season	   To understand offensive strategy balance
+Top Players by Yards Gained	            To identify key contributors
+Touchdowns by Quarter (Q1–Q4)	          To detect strong or weak periods within games
+High-Scoring Games (Threshold-based)   	To highlight standout games
+Game-by-Game Touchdown Trends	          To detect variability and scoring patterns
+
+- Dashboard interaction 
