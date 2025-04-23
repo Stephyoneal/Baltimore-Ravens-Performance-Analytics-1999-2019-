@@ -24,7 +24,6 @@ Insights are visualized using dynamic dashboards and a storytelling format in Ta
 -Dashboard interaction -<a href="https://github.com/Stephyoneal/Baltimore-Ravens-Performance-Analytics-1999-2019-/blob/main/Screenshot%202025-04-23%20120335.png">Dataset</a>
 
 ## Process 
-Project Process
 This project followed a full-cycle data analytics workflow—starting from raw data to interactive dashboards and insights:
 
 - Data Collection & Preparation
