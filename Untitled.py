@@ -123,8 +123,37 @@ player_summary.to_csv('ravens_top_players_stats.csv', index=False)
 print("\nTop players stats exported!")
 
 
-# In[ ]:
+# Import machine learning libraries
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import classification_report, confusion_matrix
 
+# Load the game-by-game touchdowns data (you already created it)
+ravens_games = pd.read_csv('ravens_game_by_game_touchdowns.csv')
 
+# (Optional) Create a dummy Win/Loss target for now (for demo)
+import numpy as np
+np.random.seed(42)
+ravens_games['win'] = np.random.choice([0, 1], size=len(ravens_games))
+
+# Select features and target
+X = ravens_games[['total_touchdowns']]  # Use more features later
+y = ravens_games['win']
+
+# Split into train/test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# Train Logistic Regression model
+model = LogisticRegression()
+model.fit(X_train, y_train)
+
+# Predict and Evaluate
+y_pred = model.predict(X_test)
+
+print("\nConfusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred))
 
 
